@@ -17,7 +17,8 @@
 # Proprietary filed needed to build libraries
 PRODUCT_COPY_FILES += \
     vendor/zte/roamer/proprietary/libaudio.so:obj/lib/libaudio.so \
-    vendor/zte/roamer/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so
+    vendor/zte/roamer/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
+    vendor/zte/roamer/proprietary/libril.so:obj/lib/libril.so
 
 # All the blobs necessary for roamer
 PRODUCT_COPY_FILES += \
@@ -37,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/roamer/proprietary/qmuxd:system/bin/qmuxd \
     vendor/zte/roamer/proprietary/akmd2:system/bin/akmd2 \
     vendor/zte/roamer/proprietary/BCM2070B0_002.001.032.0518.0520.hcd:system/bin/BCM2070B0_002.001.032.0518.0520.hcd \
+    vendor/zte/roamer/proprietary/libril.so:system/lib/libril.so \
     vendor/zte/roamer/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/zte/roamer/proprietary/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/zte/roamer/proprietary/libdiag.so:system/lib/libdiag.so \
